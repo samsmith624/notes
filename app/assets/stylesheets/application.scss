@@ -13,6 +13,21 @@
  *= require_tree .
  *= require_self
  */
- 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$font: Arial, Helvetica, sans-serif;
+$color: #aa41c4;
+$font-color: #b9c9c9;
+body {
+  font-family: $font;
+  text-shadow: 2px 2px;
+  color: $font-color;
+  background-color: $color;
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+  text-transform: uppercase;
+}
